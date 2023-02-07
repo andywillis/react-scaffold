@@ -5,9 +5,6 @@
   "type": "module",
   "scripts": {
     "lint": "eslint",
-    "rgbToHex": "node --experimental-specifier-resolution=node --experimental-json-modules src/tools/createRgbFromHex/index.js",
-    "compiledLibrary": "node --experimental-specifier-resolution=node --experimental-json-modules src/tools/createCompiledLibrary/index.js",
-    "strippedLibrary": "node --experimental-specifier-resolution=node --experimental-json-modules src/tools/createStrippedCompiledLibrary/index.js",
     "dev": "nodemon --experimental-specifier-resolution=node --experimental-json-modules src/index",
     "prod": "node --experimental-specifier-resolution=node --experimental-json-modules src/index"
   },
